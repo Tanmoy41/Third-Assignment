@@ -1,3 +1,6 @@
+//https://github.com/Tanmoy41/Third-Assignment
+
+//First part
 function kilometerToMeter(kilometer){
     var meter = kilometer * 1000;
     if(kilometer <= 0){
@@ -10,6 +13,7 @@ function kilometerToMeter(kilometer){
     var result = kilometerToMeter(-10);
     console.log(result);
 
+//Second part
 function budgetCalculator(clock,mobile,laptop){    //Here, clock = number of clock, mobile = number of mobile,
                                                     //laptop = number of laptop
         var clockPrice = clock * 50;
@@ -26,6 +30,7 @@ function budgetCalculator(clock,mobile,laptop){    //Here, clock = number of clo
         console.log(result);
 
     
+//Third Part
 function hotelCost(n){        //Here n = number of days.
         if(n <= 10){
             totalCost = n * 100;
@@ -47,6 +52,7 @@ function hotelCost(n){        //Here n = number of days.
         var result = hotelCost(50);
         console.log(result);
 
+//Fourth Part
 function megaFriend(name)
     {
         var max_string = name[0].length;
